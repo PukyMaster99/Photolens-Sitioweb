@@ -1,0 +1,86 @@
+header{
+    width: 100%;
+    height: 730px;
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443a6, #34e89dad), url(../Imagenes/1104.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+form{
+    width: 100%;
+}
+
+.datos{
+    width: 90%;
+    padding-left: 100px;
+}
+
+section{
+    display: block;
+}
+
+.uno {
+    display: flex;
+    width: 90%;
+    padding-left: 50px;
+}
+
+.uno div{
+    margin: 70px;
+    font-size: 20px;
+    
+}
+
+
+.documento input{
+    width: 200px;
+}
+
+.documento p{
+    width: 200px;
+    font-size: 20px;
+}
+
+.img1{
+    width: 80%;
+    height: 150px;
+    padding-left: 600px;
+}
+
+.img1 img{
+    width: 200px;
+}
+
+
+.img2{
+    width: 100%;
+    height: 0px;
+    padding-left: 1000px;
+    position: relative;
+    padding-bottom: 15px;
+
+}
+
+.img2 img{
+   width: 400px;
+   height: 350px;
+}
+
+.color{
+    width: 60%;
+    font-size: 22px;
+}
+
+.dos{
+    padding-left: 120px;
+}
+
+
+.submit{
+    width: 10%;
+    padding-top: 10px;
+}
+

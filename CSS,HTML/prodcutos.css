@@ -1,0 +1,91 @@
+header{
+    width: 100%;
+    height: 730px;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5edc7, #2193b0bb), url(../Imagenes/productos.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section{
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 180px;
+    margin-top: 100px;
+}
+
+.cmb img{
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+.section h2{
+    display:block;
+    padding-left: 0px;
+    font-size: 35px;
+}
+
+.cmb p{
+    display: flex;
+    color: gray;
+    font-size: 20px;
+    padding-left: 100px;
+    text-align: justify;
+    padding-top: 35px;
+}
+
+.cmb{
+    display: flex;
+}
+
+.rostros{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tipo-rostros{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tipo-rostros p{
+    text-align: justify;
+    color: gray;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.tipo-rostros h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+.tipo-rostros img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+}
+
+.section p{
+    text-align: justify;
+    padding-top: 0px;
+    padding-left: 150px;
+}
+
+.section img{
+    width: 300px;
+}
+
+.section .l{
+    padding-left: 65px;
+    text-align: justify;
+}

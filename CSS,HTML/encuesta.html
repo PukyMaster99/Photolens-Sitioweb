@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta-PhotoLens</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="boton.css">
+    <link rel="stylesheet" type="text/css" href="encuesta.css">
+    <link rel="shortcut icon" href="../Imagenes/P.PNG" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class=ancho>
+            <div class=logo>
+                <p><a href="../index.html">PhotoLens</a></p>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Productos y Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="sevicios.html">Servicios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Tienda</a>
+                        <ul class="submenu">
+                            <li><a href="Gafas.html">Gafas</a></li>
+                            <li><a href="lentes.html">Lentes de Contacto</a></li>
+                            <li><a href="monturas.html">Monturas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href ="POLITICA.html">Politicas De Calidad</a></li>
+                    <li><a href ="contactanos.html">Contactanos</a></li>
+                </ul>        
+            </nav>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Buscar">
+            <div class="btn">
+            <img src="../Imagenes/search.svg">
+            </div>
+        </div> 
+        <div class="contenedo">
+            <div class="contenedor-botones">
+                <a href="agendate.html"><button class="boton">
+                    <div class="icono">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </div>
+                    <span><b>Agendate</b></span>
+                </button></a>
+            </div>
+        </div>
+        <section class="textos">
+            <h1>Mas de lo que puedes ver</h1>
+            <h2>con un servicio excelente</h2>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
+        </section>
+    </header>
+<main> 
+<FORM>
+    <div class="img1">
+        <img src="../Imagenes/undraw_analytics_re_dkf8.svg">
+    </div>
+        <div class="datos">
+            <h2>Nombre</h2><INPUT TYPE="TEXT" SIZE=50 placeholder="Digite Nombre"><BR><BR>
+            <h2>Apellido</h2> <INPUT TYPE="TEXT" SIZE=50 placeholder="Digite Apellido"><BR><BR>
+            <h2>Tipo de documento</h2> <INPUT TYPE="text" SIZE=48> <BR><BR>
+            <h2>Numero de Identificacion</h2> <INPUT TYPE="NUMBER"> <BR><BR>
+            <h2>Fecha de nacimiento</h2> <INPUT TYPE="DATE"> <BR><BR>
+        </div>
+    <section class="uno">
+        <div class="documento">
+                Desde que edad utiliza Gafas?<BR><BR>
+                <p>2 a 5 años</p> 
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+                <p>de 6 a 10 años</p> 
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+                <p>de 11 a 15 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+                <p>de 16 a 20 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+                <p>de 21 a 30 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+                <p>mas de 30 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+                <p>No he utilizado Gafas</p>
+                <INPUT TYPE="RADIO" NAME="RADIO1"><BR>
+        </div>
+        <div class="documento">
+                Que edad tiene?<BR><BR>
+                <p>Menor a 10 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO2"><br>
+                <p>De 11 a 20 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO2"><br>
+                <p>De 21 a 30 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO2"><br>
+                <p>De 31 a 40 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO2"><br>
+                <p>Mas de 40 años</p>
+                <INPUT TYPE="RADIO" NAME="RADIO2"><br>
+        </div>
+        <div class="documento">
+            Pasatiempos<BR><BR>
+            Leer<INPUT TYPE="Checkbox"><br>
+            Cine<INPUT TYPE="Checkbox"><br>
+            Hacer deporte<INPUT TYPE="Checkbox"><br>
+            Bailar<INPUT TYPE="Checkbox"><br>
+            Videojuegos<INPUT TYPE="Checkbox"><br>
+            Otro<INPUT TYPE="Checkbox"><br>
+            Cual?<INPUT TYPE="TEXT" SIZE=50><br>
+        </div>
+        <div>
+            Ciudad de nacimiento<br>
+            <select name="menu">
+                <option>Bogota</option>
+                <option>Medellin</option>
+                <option>Cali</option>
+                <option>Cartagena</option>
+                <option>Barranquilla</option>
+                <option>Bucaramanga</option>
+                <option>Manizales</option>
+                <option>Armenia</option>
+                <option>Santa Marta</option>
+                <option>Ibague</option>
+                <option>Pereira</option>
+                <option>Cucuta</option>
+                <option>Villavicencio</option>
+                <option>Valledupar</option>
+                <option>Monteria</option>
+                <option>Pasto</option>
+                <option>Neiva</option>
+                <option>Soacha</option>
+                <option>Tunja</option>
+                <option>Quibdo</option>
+                <option>Sincelejo</option>
+                <option>Yopal</option>
+                <option>Popayan</option>
+                <option>Palmira</option>
+                <option>Envigado</option>
+            </select><br><br>
+            Que tipo de rostro eres?<br>
+            <select name="menu">
+                <option>Redondo</option>
+                <option>Cuadrado</option>
+                <option>Triangular</option>
+                <option>Ovalado</option>
+            </select><br><br>
+            Que tipo de afeccion tiene?<br>
+            <select name="menu">
+                <option>Miopia</option>
+                <option>Astigmatismo</option>
+                <option>Hipermetropia</option>
+                <option>Presbicia</option>
+                <option>Otro</option>
+                <option>Ninguna</option>
+            </select><br><br>
+        </div>
+    </section>
+    <div class="img2">
+        <img src="../Imagenes/undraw_segment_analysis_re_ocsl.svg">
+    </div>
+    <section class="dos">
+        <div class="color">
+            Queremos tener mejor servicio con el tema de los productos asi que para eso escoja un color que normalmente quiera tener en su montura.<BR>
+                &nbsp <INPUT TYPE="COLOR"><BR><BR>
+        </div>
+        <p class="submit">
+        <input type="submit" value="Enviar encuesta">
+		<input type="reset" value="Borrar">
+        </p>
+    </section>    
+</FORM>
+</main>
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h3>Telefono Celular</h3>
+            <p>(+57 1) 311 277 77 78</p>
+        </div>
+        <div class="content-foo">
+            <h3>Correo Electronico</h3>
+            <p>alexjuli_0619@hotmail.com</p>
+        </div>
+        <div class="content-foo">
+            <h3>Direccion</h3>
+            <p>Cra 9 No. 18-33 Local 13 CC.San Martin</p>
+        </div>
+    </div>
+    <div class="final">
+        <h2>&copy; Alex Hernandez |  2021  |  Proyecto Desarrollador Web  | Colombia</h2>
+    </div>
+</footer>
+</body>
+</html>

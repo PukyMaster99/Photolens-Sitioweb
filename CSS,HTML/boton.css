@@ -1,0 +1,74 @@
+
+.contenedo {
+	width: 900px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contenedor-botones {
+	width: 150px;
+	display: inline-block;
+    padding-left: 560px;
+}
+
+.boton{
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    display: inline-flex;
+    width: 300px;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3 ease-in-out all;
+}
+
+.boton span{
+    align-items: center;
+    position: relative;
+    left: -15px;
+    transition: .4s ease-in-out all;
+    color: white;
+    font-size: 14px;
+    text-decoration-line: underline; 
+}
+
+.boton .icono{
+    position: relative;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+    left: -92px;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    color: black;
+}
+
+.boton svg{
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.boton:hover {
+    background-color: white;
+}
+
+.boton:hover .icono{
+    left: calc(100% - 130px);
+    opacity: 1;
+    color: black;
+}
+
+.boton:hover span{
+    left: -95px;
+    color: black;
+}
+
+
