@@ -33,6 +33,46 @@
 .div-tienda p{
     font-size: 25px;
 }
+
+
+aside{
+    width: 20%;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 40px;
+    height: 800px;
+    text-decoration: none;
+}
+
+.aside li{
+    text-align: center;
+    border: 2px solid white;
+    height: 40px;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 4px;
+}
+
+
+.aside li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.aside ul{
+    padding-top: 200px;
+    text-decoration: none;
+}
+
+.nose{
+    display: flex;
+}
+
 @media screen and (max-width:900px){
     .gafas{
         background-position:center;
@@ -101,44 +141,4 @@
         display: block;
         position: relative;
     }
-}
-
-
-aside{
-    width: 20%;
-    text-align: center;
-    padding-left: 50px;
-    padding-top: 40px;
-    height: 800px;
-    text-decoration: none;
-}
-
-.aside li{
-    text-align: center;
-    border: 2px solid white;
-    height: 40px;
-    align-items: center;
-    text-decoration: none;
-    background-color: rgb(255, 0, 0);
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 4px;
-}
-
-
-.aside li a{
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-    font-size: 22px;
-}
-
-.aside ul{
-    padding-top: 200px;
-    text-decoration: none;
-}
-
-
-.nose{
-    display: flex;
 }
