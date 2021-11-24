@@ -21,6 +21,14 @@ header{
     background-color: white;
 }
 
+#btn-menu{
+    display:none;
+}
+
+label img{
+    display:none;
+}
+
 .logo{
     width: 30%;
     height: 70px;
@@ -505,4 +513,255 @@ footer{
 .encuesta:hover{
     background-color: black;
     transition: 1s;
+}
+
+@media screen and (max-width:900px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    header label img{
+        display: block;
+        z-index: 2;
+        text-align: right;
+    }
+
+    header label{
+        display: block;
+        padding-left: 380px;
+    }
+
+    nav .menu{
+        position: absolute;
+        text-align: left;
+        display: block;   
+        flex-direction: column;    
+        height: 60px;
+        width: 70%;
+        padding-top: 0px;
+        transform: translateX(-100%);
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        background-color: white;
+        width: 210px;
+        border-top: 2px solid black;
+        height: 75px;
+    }
+
+    header{
+        background-position:center;
+        height: 700px;
+        width: 425px;
+        
+    }
+    .wave{
+        width: 510px;
+    }
+    .ancho{
+        width: 425px;
+        height: 60px;
+        flex-direction: column;  
+        border-bottom: 2px solid black;
+    }
+    .logo{
+       border: none;
+       padding-bottom: 0px;
+       display: block;
+       text-align: left;
+       padding-left: 10px;
+       padding-bottom: 20px;
+    }
+
+    .logo p a{
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    nav{
+        border-bottom: none;
+        flex-direction: column;
+        display: block;
+        position: absolute;
+        width: 425px;
+        padding: 0 0 0 0;
+        padding-top: 20px;
+    }
+
+    nav li:hover{
+        background-color: rgb(204, 202, 202);
+    }
+
+    .menu li:first-child{
+        padding-top: 10px;
+        border-top: none;
+    }
+
+    .menu li li:first-child{
+        border-top: none;
+    }
+
+    nav ul li a{
+        font-size: 17px;
+        text-align: center;
+        height: 50px;
+    }
+    
+
+    nav ul ul li a{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    nav ul ul{
+        left: 100%;
+        top: -2.8px;
+        border-top: 2px solid black;
+        height: 75px;
+        border-left: 1px solid black;
+    }
+
+
+    .contenedor-botones{
+        padding-right: 400px;
+    }
+    .textos h1{
+        font-size: 40px;
+    }
+    .textos h2{
+        font-size: 30px;
+    }
+
+    .textos{
+        height: 300px;
+    }
+
+    .contenido-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        display: block;
+    }
+
+    .contenido-sobre-nosotros img{
+        position: absolute;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 300px;
+    }
+
+    .titulo{
+        justify-content: center;
+        text-align: center;
+        width: 425px;
+    }
+
+    .historia .contenido-textos{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 300px;
+    }
+
+    .search{
+        display: block;
+        padding-left: 10px;
+        position: absolute;
+    }
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card {
+        width: 90%;
+    }
+
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
+
+    .cards .card{
+        height: 300px;
+    }
+
+    .card img{
+        height: 115px;
+    }
+
+    .card h3{
+        padding-left: 200px;
+    }
+
+    footer{
+        width: 425px;
+        height: 400px;
+    }
+
+    footer h2{
+        background-color: red;
+    }
+
+    footer .contenedor-footer{
+        flex-direction: column;
+        height: 250px;
+        border-top: 2px solid black;
+    }
+
+    .contenedor-botones{
+        padding-left: 0px;
+        padding-right: 1250px;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .contenedor-footer h3{
+        padding-left: 0px;
+        width: 100%;
+        padding-bottom: 20px;
+        border: none;
+    }
+
+    .contenedor-footer p{
+        border-bottom: 1px solid red;
+    }
+
+    .contenedo{
+        display: block;
+        width: 425px;
+        margin-left: 0px;
+    }
+
+    .encuesta{ 
+        margin: 0 0 0 0;
+        margin-left: 20px;
+    }
+
+    #btn-menu:checked ~ nav .menu{
+        transform: translateX(0%);
+        z-index: 1;
+        transition: all .5s;
+    }
+
+    .ancho svg{
+        height: 40px;
+        width: 40px;
+    }
+
 }
