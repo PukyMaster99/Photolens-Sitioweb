@@ -84,3 +84,97 @@ section{
     padding-top: 10px;
 }
 
+@media screen and (max-width:900px){
+    header{
+        background-position:center;
+        height: 800px;
+        width: 425px;
+        background: #34e89e;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0f3443a6, #34e89dad), url(../Imagenes/1104.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    
+    form p{
+        text-align: justify;
+        width: 90%;
+        padding-left: 0px;
+    }
+
+    form h2{
+        font-size: 25px;
+    }
+    
+    form h3{
+        text-align: center;
+        padding-right: 40px;
+    }
+    
+    form{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    form .dd{
+        flex-direction: column;
+    }
+
+    form .img1{
+        position: absolute;
+        padding-left: 150px;
+    }
+
+    form .datos{
+        padding-left: 15px;
+        padding-top: 180px;
+    }
+
+    form .datos input{
+        width: 400px;
+    }
+
+    form .uno{
+        flex-direction: column;
+    }
+
+    form .documento{
+        font-size: 40px;
+    }
+    
+    form .uno p{
+        font-size: 25px;
+    }
+
+    form .documento select{
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    form .img2{
+        position: absolute;
+        padding-left: 50px;
+    }
+
+    form .dos{
+        padding-top: 400px;
+    }
+
+    form .color{
+        padding-left: 0px;
+        text-align: justify;
+        width: 80%;
+    }
+
+    form .dos input{
+        width: 300px;
+    }
+
+    
+}
