@@ -33,6 +33,75 @@
 .div-tienda p{
     font-size: 25px;
 }
+@media screen and (max-width:900px){
+    .gafas{
+        background-position:center;
+        height: 800px;
+        width: 425px;
+        background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217b7, #e52d27cb), url(../Imagenes/gafas1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+    }
+
+
+    .tienda{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        display: block;
+        padding-top: 600px;
+        margin: 0px;
+    }
+
+    .tienda:first-child{
+        padding-top: 200px;
+    }
+
+    .nose{
+        padding-bottom: 600px;
+    }
+
+    .div-tienda{
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        padding-top: 0px;
+        position: relative;
+        height: 200px;
+        margin: 0px;
+    }
+
+    .aside ul {
+        flex-direction: column;
+        width: 50%;
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        position: absolute;
+    }
+
+    aside{
+        padding-left: 0px;
+    }
+
+
+
+    .div-tienda img{
+        padding-top: 0px;
+        width: 200px;
+        height: 150px;
+    }
+
+    footer{
+        display: block;
+        position: relative;
+    }
+}
 
 
 aside{
