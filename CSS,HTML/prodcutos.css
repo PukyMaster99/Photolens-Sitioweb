@@ -89,3 +89,61 @@ header{
     padding-left: 65px;
     text-align: justify;
 }
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+        height: 800px;
+    }
+
+    .rostros{
+        flex-direction: column;
+        display: block;
+    }
+
+    .cmb{
+        justify-content: center;
+        align-items: center;
+        width: 90%;  
+        display: block;
+    }
+
+    .cmb p{
+        display: block;
+        padding-left: 15px;
+        margin: 0px;
+        display: block;
+        padding-top: 180px;
+    }
+
+    .cmb img{
+        position: absolute;
+        display: block;
+        height: 150px;
+        width: 350px;
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+
+    .section{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 100px;
+        display: block;
+    }
+
+    .section h2{
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        display: block;
+    }
+
+    .super-section{
+        display: block;
+        flex-direction: column;
+        padding-top: 880px;
+    }
+
+}
