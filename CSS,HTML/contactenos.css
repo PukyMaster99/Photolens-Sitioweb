@@ -77,3 +77,52 @@ form select{
     position: relative;
     display: flex;
 }
+
+@media screen and (max-width:900px){
+    .contactenos{
+        background-position:center;
+        height: 800px;
+        width: 425px;
+        background: #20002c;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #cbb4d4be, #20002cc4), url(../Imagenes/contactenos.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;   
+    }
+
+    .div-contactenos{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+
+    .div-contactenos p{
+        text-align: justify;
+        width: 90%;
+        padding-left: 0px;
+    }
+
+    .div-contactenos h3{
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .contactenos1{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contactenos1 .dd{
+        flex-direction: column;
+    }
+
+    .contactenos1 input{
+        width: 200px;
+    }
+}
