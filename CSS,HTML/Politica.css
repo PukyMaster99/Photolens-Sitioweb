@@ -8,3 +8,43 @@
     background-attachment: fixed;
     position: relative;
 }
+
+@media screen and (max-width:900px){
+    .politicas{
+        background-position:center;
+        height: 800px;
+        width: 425px;
+    }
+
+
+    .politicas-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        display: block;
+    }
+
+    .politicas-section img{
+        position: absolute;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 300px;
+    }
+
+    .titulo{
+        justify-content: center;
+        text-align: center;
+        width: 425px;
+        padding-top: 10px;
+    }
+
+    .politicas-section .ul-contenido-textos{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+}
